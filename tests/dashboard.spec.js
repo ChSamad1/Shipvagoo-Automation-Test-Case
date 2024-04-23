@@ -20,8 +20,6 @@ test('Dashboard Validation', async ({ page }) => {
     await dashboard.paywithsavedcard.click();
     await dashboard.addfundsBtn.click();
     await dashboard.enterAmountAndAddFunds('100');
-    await dashboard.chckBox.click();
-    await dashboard.paywithsaveBtn.click();
     await page.waitForSelector('.q-notification__message.col');
     await expect(dashboard.paymentMsg).toBeVisible();
 });

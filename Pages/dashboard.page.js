@@ -30,5 +30,7 @@ exports.dashboardpage = class DashboardPage {
 
     async enterAmountAndAddFunds(amount) {
         await this.enterAmount.fill(amount);
+        await this.chckBox.click()
+        await this.paywithsaveBtn.click()
     }
 }
