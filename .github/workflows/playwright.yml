@@ -20,8 +20,8 @@ jobs:
       - name: List files in current directory
         run: ls -al
 
-      - name: List files in pages directory
-        run: ls -al pages
+      - name: List files in Pages directory
+        run: ls -al Pages
 
       - uses: actions/setup-node@v4
         with:
