@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
-const { loginPage } = require('../Pages/login.page')
-const { dashboardpage } = require('../Pages/dashboard.page');
-const staticData = require('../data/staticData');
+const { loginPage } = require('c:/Shipvagoo Automation Test Case/pages/login.page')
+const { dashboardpage } = require('c:/Shipvagoo Automation Test Case/Pages/dashboard.page');
+const staticData = require('c:/Shipvagoo Automation Test Case/data/staticData')
 
 test('Dashboard Validation', async ({ page }) => {
     
